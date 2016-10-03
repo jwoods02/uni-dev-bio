@@ -1,7 +1,11 @@
 <!doctype HTML>
-<html>
+<html lang="en-gb">
   <head>
-    <title> James Woods </title>
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+      <title> James Woods: Contact </title>
+
+      <link rel="stylesheet" type="text/css" href="style.css">
   <head>
   <body>
 
@@ -10,34 +14,45 @@
         <ul>
           <li><a href="home.html">Home</a></li>
           <li><a href="bio.html">Bio</a></li>
-          <li><a href="work.html">Work</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <hr>
 
-    <h1> James' Form </h1>
+    <div class="container">
 
-    <form action="" method="get" id="myForm">
+        <h1 class="form-text"> Contact Me! </h1>
 
-      <label for="firstname"> First Name: </label>
-      <input type="text" name="firstname" id="firstname" class="firstname">
-      <br>
-      <label for="lastname"> Last Name: </label>
-      <input type="text" name="lastname" id="lastname" class="lastname">
-      <br>
-      <label for="message"> Message: </label>
-      <textarea rows="6"> Type message here </textarea>
-      <br>
-      <input type="submit">
+        <form action="" method="get" id="myForm">
 
-    </form>
+            <div class="form-item">
+                <p class="form-label"> First Name: </p>
+                <input type="text" name="firstname" id="firstname" class="firstname">
+            </div>
 
+            <div class="form-item">
+                <p class="form-label"> Last Name: </p>
+                <input type="text" name="lastname" id="lastname" class="lastname">
+            </div>
 
+            <div class="form-item">
+                <p class="form-label"> Message: </p>
+                <textarea rows="6"> Type message here </textarea>
+            </div>
 
-    <footer>
+          <input type="submit">
+
+        </form>
+
+        <h3 class="form-text"><a href="mailto:WoodsJ13@cardiff.ac.uk" class="contact-link"> Email: WoodsJ13@cardiff.ac.uk </a></h3>
+
+        <h3 class="form-text"><a href="https://github.com/ijames55" class="contact-link"> Github: iJames55 </a></h3>
+
+    </div>
+
+    <footer class="container">
       <p> &copy; JAMES WOODS 2016 </p>
     </footer>
   <body>

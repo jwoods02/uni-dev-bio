@@ -1,0 +1,98 @@
+/* GENERAL */
+
+body {
+    font-size: 1.2em;
+    background-color: #B8312F;
+    color: #f5f6f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* NAV */
+
+nav {
+    list-style-type: none;
+    background-color: #444;
+    font-size: 1.3em;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+nav ul {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 5vw;
+}
+
+nav li a {
+    color: white;
+}
+
+nav li a:hover {
+    color: gray;
+}
+
+/* BLOG */
+
+.blog-post {
+    background-color: #932725;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-post > * {
+    margin-bottom: 5px;
+}
+
+.blog-title h5 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.blog-title .muted {
+    margin-top: 0;
+}
+
+.muted {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+/* FORM */
+
+.form-text {
+    text-align: center;
+}
+
+.form-item {
+    background-color: #932725;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    margin-bottom: 2px;
+}
+
+/* CONTACT */
+
+.contact-link {
+    color: #f5f6f7;
+}
+
+.contact-link:hover {
+    color: #c65a58;
+}
